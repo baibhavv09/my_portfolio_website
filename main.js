@@ -28,16 +28,4 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
 
-    const whatsappLink = document.getElementById('whatsappLink');
-
-
-    whatsappLink.addEventListener('click', function (event) {
-
-        event.preventDefault();
-
-
-        window.open(whatsappLink.href, '_blank');
-    });
-});
